@@ -27,9 +27,7 @@
   height: 24px;
 }
 
-.close-menu-btn {
-  display: none;
-}
+
 
 @media only screen and (min-width: 768px) {
 
@@ -47,7 +45,11 @@
     width: 44px;
     height: 44px;
     background-color: rgba(252, 249, 249, 0.1);
+  }
 
+  .social-item:hover {
+    border: 1px solid #ecd979;
+    background-color: transparent;
   }
 
   .social-icon {
@@ -93,6 +95,10 @@
 
   .nav-link {
     text-transform: uppercase;
+  }
+
+  .nav-link:hover {
+    color: #ecd979;
   }
 
   .nav-wrap {
