@@ -47,7 +47,8 @@
     background-color: rgba(252, 249, 249, 0.1);
   }
 
-  .social-item:hover {
+  .social-item:hover,
+  .social-item:focus {
     border: 1px solid #ecd979;
     background-color: transparent;
   }
@@ -82,6 +83,11 @@
     font-style: normal;
   }
 
+  .adress-phone:hover,
+  .adress-phone:focus {
+    border: 1px solid #ecd979;
+  }
+
   .social-links {
     margin-right: 0;
   }
@@ -97,7 +103,8 @@
     text-transform: uppercase;
   }
 
-  .nav-link:hover {
+  .nav-link:hover,
+    .nav-link:focus {
     color: #ecd979;
   }
 
