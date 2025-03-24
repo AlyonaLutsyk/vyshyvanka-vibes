@@ -6,6 +6,11 @@
   padding-top: 20px;
 }
 
+.nav-wrap {
+  padding-top: 6.5px;
+  padding-bottom: 6.5px;
+}
+
 .nav-list {
   display: none;
 }

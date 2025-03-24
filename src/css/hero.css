@@ -1,0 +1,136 @@
+.hero-container {
+    margin-top: 78px;
+    margin-bottom: 80px;
+    position: relative;
+    padding-right: 155px;
+
+}
+
+
+.hero-title {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 1.09;
+    letter-spacing: -0.03em;
+    margin-bottom: 20px;
+}
+
+.hero-span {
+    color: #ecd979;
+}
+
+.hero-info {
+    display: none;
+}
+
+.hero-btn {
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    border-radius: 15px;
+    padding: 14px 36px;
+    width: 154px;
+    height: 49px;
+    background-color: transparent;
+    color: #fcf9f9;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    margin-left: 70px;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    border: 1px solid #ecd979;
+}
+
+.hero-svg {
+    margin-left: 10px;
+}
+
+.hero-img {
+    border-radius: 4px;
+    width: 335px;
+    height: 545px;
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero-container {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .hero-title {
+        font-size: 54px;
+        line-height: 1.18;
+        margin-bottom: 40px;
+    }
+
+    .hero-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: -0.04em;
+        color: rgba(252, 249, 249, 0.4);
+        width: 115px;
+        height: 111px;
+        text-align: center;
+        position: absolute;
+        right: 0;
+        top: 16px;
+    }
+
+    .svg-star {
+        margin-bottom: 16px;
+    }
+
+    .hero-btn {
+        border: 1px solid rgba(252, 249, 249, 0.1);
+        padding: 14px 39px;
+        width: 168px;
+        height: 50px;
+        font-size: 16px;
+        margin-left: 141px;
+
+    }
+
+
+    .hero-img {
+        width: 413px;
+        height: 575px;
+
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+.hero-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+
+  .hero-img {
+    width: 392px;
+    height: 545px;
+    margin-top: 0;
+    margin-right: 40px;
+  }
+
+  .hero-item {
+    padding-top: 94px;
+  }
+  .hero-title {
+    width: 518px;
+    height: 192px;
+  }
+
+  .hero-info {
+    top: 14px;
+  }
+}
+
+
