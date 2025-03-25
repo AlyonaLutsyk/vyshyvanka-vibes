@@ -1,0 +1,108 @@
+.about-us {
+    background-image: url(/img/images/bc-about-us.png);
+    background-position: 125px bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: auto 409px;
+}
+.container {
+    margin-bottom: 18px;
+}
+.about-us-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us-items {
+    margin-bottom: 50px;
+}
+
+.about-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.38;
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+
+}
+
+.about-text-one,
+.about-text-two {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.04em;
+    color: rgba(252, 249, 249, 0.4);
+    width: 335px;
+}
+
+.about-text-one {
+    margin-bottom: 20px;
+}
+
+
+.img-about {
+    border-radius: 4px;
+    width: 335px;
+    height: 499px;
+    object-fit: cover;
+    padding-bottom: 62px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .about-us {
+        background-position: 399px bottom;
+        background-size: auto 485px;
+    }
+    .container {
+        margin-bottom: 50px;
+    }
+
+    .about-text-one,
+    .about-text-two{
+        width: 704px;
+        font-size: 16px
+    }
+
+    .about-us-items {
+        margin-bottom: 40px;
+    }
+
+    .about-title {
+        font-size: 44px;
+        line-height: 1.45;
+    }
+
+    .img-about {
+        width: 704px;
+        height: 545px;
+        padding-bottom: 50px;
+    }
+
+}
+
+@media only screen and (min-width: 1280px) {
+    .about-us {
+            background-position: 895px bottom;
+            background-size: auto 485px;
+        }
+    .about-us-wrap {
+       flex-direction: row;
+  }
+  .img-about {
+    width: 594px;
+    height: 545px;
+  }
+  .about-us-items {
+    margin-right: 50px;
+    padding-top: 78.5px;
+    padding-bottom: 78.5px;
+  }
+
+  .about-text-one,
+  .about-text-two {
+    width: 536px;
+  }
+
+}
+

@@ -1,8 +1,6 @@
 .hero-container {
     margin-top: 78px;
     margin-bottom: 80px;
-    position: relative;
-    padding-right: 155px;
 
 }
 
@@ -60,6 +58,8 @@
     .hero-container {
         margin-top: 100px;
         margin-bottom: 100px;
+        padding-right: 155px;
+        position: relative;
     }
 
     .hero-title {
@@ -111,6 +111,7 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
+    margin-bottom: 150px;
   }
 
   .hero-img {
