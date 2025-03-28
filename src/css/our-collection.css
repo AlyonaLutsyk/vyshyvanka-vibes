@@ -1,3 +1,10 @@
+.our-collection {
+    background-image: url(/img/images/bc-yellow-mob.png);
+    background-repeat: no-repeat;
+    background-position: left 298px;
+    
+}
+
 .collection-wrap {
     padding-bottom: 80px;
     margin-bottom: 0;
@@ -48,6 +55,12 @@
 }
 
 @media only screen and (min-width: 768px) {
+    .our-collection {
+        background-image: url(/img/images/bc-yellow-tab.png);
+        background-repeat: no-repeat;
+        background-position: left 221px;
+    
+    }
     .collection-wrap {
     padding-bottom: 100px;
   }
@@ -86,6 +99,11 @@
 }
 
 @media only screen and (min-width: 1280px) {
+    .our-collection {
+        background-image: url(/img/images/bc-yellow-desktop.png);
+        background-position: left 221px;
+    
+    }
    .collection-wrap {
     padding-bottom: 150px;
   }
