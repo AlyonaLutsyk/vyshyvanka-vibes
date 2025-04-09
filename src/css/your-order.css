@@ -1,4 +1,4 @@
-.your-order-wrap {
+.order-bc-wrap {
     padding: 0;
     width: 100vw;
     height: 500px;
@@ -8,14 +8,87 @@
     overflow: hidden;
 }
 
-.your-order-wrap img {
+.order-bc-wrap img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
+.order-wrap {
+   padding-top: 80px;
+}
+
+.order-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.375;
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+}
+.order-title span {
+    color: #ecd979;
+}
+.order-wrap img {
+    display: none;
+}
+
+.form-field {
+    display: block;
+}
+
+.form-info{
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    background-color: transparent;
+    border-radius: 15px;
+    padding: 14px 16px;
+    width: 100%;
+    height: 47px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: rgba(252, 249, 249, 0.5);
+
+}
+.form-info-com {
+    border: 1px solid rgba(252, 249, 249, .1);
+     border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 196px;
+    resize: none;
+    background: transparent;
+    outline: transparent;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -.02em;
+    color: rgba(252, 249, 249, 0.5);
+}
+
+.order-btn {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #fcf9f9;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    border-radius: 15px;
+    min-width: 145px;
+    height: 49px;
+    display: block;
+    margin: 0 auto;
+    
+    
+}
+
+.order-btn svg {
+    margin-left: 10px;
+}
+
 @media only screen and (min-width: 768px) {
-    .your-order-wrap {
+    .order-bc-wrap {
         height: 776px;
     }
 }
