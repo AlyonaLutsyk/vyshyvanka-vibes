@@ -50,6 +50,13 @@
     color: rgba(252, 249, 249, 0.5);
 
 }
+.form-info:hover,
+.form-info:focus {
+    border: 1px solid rgba(252, 249, 249, 0.6);
+    outline: none;
+    box-shadow: none;
+    color: #fcf9f9;
+}
 .form-info-com {
     border: 1px solid rgba(252, 249, 249, .1);
      border-radius: 8px;
@@ -64,6 +71,14 @@
     font-weight: 400;
     letter-spacing: -.02em;
     color: rgba(252, 249, 249, 0.5);
+}
+
+.form-info-com:hover,
+.form-info-com:focus {
+    border: 1px solid rgba(252, 249, 249, 0.6);
+    outline: none;
+    box-shadow: none;
+    color: #fcf9f9;
 }
 
 .order-btn {
@@ -83,12 +98,91 @@
     
 }
 
+.order-btn:hover,
+.order-btn:focus {
+    border: 1px solid #ecd979;
+}
+
 .order-btn svg {
     margin-left: 10px;
 }
 
 @media only screen and (min-width: 768px) {
+
+    .your-order {
+        background-image: url(/img/images/bc-order-vyshyvanka-tablet.png);
+        background-repeat: no-repeat;
+        background-position: left bottom;
+
+    }
     .order-bc-wrap {
         height: 776px;
+    }
+
+    .order-title {
+        font-size: 44px;
+        line-height: 1.31;
+        letter-spacing: -0.03em;
+        max-width: 542px;
+        height: 174px;
+    }
+
+    .form-field {
+        max-width: 508px;
+    }
+
+    .form-info {
+        max-width: 508px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .form-info-com {
+        max-width: 508px;
+        font-size: 16px;
+    }
+
+    .order-btn {
+       margin: 0;
+        padding: 14px 39px;
+        min-width: 168px;
+        height: 50px;
+        font-size: 16px;
+        letter-spacing: -0.04em;
+    }
+
+    .order-wrap img {
+        display: flex;
+        margin-top: 100px;
+    }
+
+    .order-wrap {
+        padding-top: 100px;
+        padding-bottom: 79px;
+    }
+
+}
+@media only screen and (min-width: 1280px) {
+    .order-wrap {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding-top: 150px;
+        padding-bottom: 0;
+
+    }
+
+    .order-wrap img {
+        width: 588px;
+        height: 521px;
+        margin-top: 0;
+    }
+
+    .order-form-wrap {
+        max-width: 542px;
+    }
+
+    .your-order {
+        background-image: url(/img/images/bc-order-vyshyvanka-desk.png);
     }
 }

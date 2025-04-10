@@ -5,8 +5,8 @@
     background-size: contain;
     background-size: auto 409px;
 }
-.container {
-    margin-bottom: 18px;
+.about-us-container {
+    padding-bottom: 18px;
 }
 .about-us-wrap {
     display: flex;
@@ -54,9 +54,9 @@
         background-position: 399px bottom;
         background-size: auto 485px;
     }
-    .container {
-        margin-bottom: 50px;
-    }
+        .about-us-container {
+            padding-bottom: 50px;
+        }
 
     .about-text-one,
     .about-text-two{

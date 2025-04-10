@@ -60,6 +60,7 @@
 
   .social-icon {
     padding: 8px;
+    box-sizing: content-box;
   }
   .contact-wrap {
     display: flex;
