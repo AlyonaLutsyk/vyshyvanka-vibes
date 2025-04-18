@@ -61,12 +61,18 @@
 .swiper-buttons {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .swiper-button-prev,
 .swiper-button-next {
   color: #ecd979;
   position: static;
+  width: 24px;
+  height: 36px;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 30px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -76,6 +82,19 @@
         background-position: left 221px;
     
     }
+        .swiper-buttons {
+          margin-top: 50px;
+        }
+      .swiper-button-prev,
+      .swiper-button-next {
+        width: 26px;
+        height: 44px;
+      }
+      
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+      font-size: 38px;
+}
     .collection-wrap {
     padding-bottom: 80px;
   }
@@ -119,6 +138,13 @@
         background-position: left 221px;
     
     }
+        .swiper-buttons {
+          margin-top: 60px;
+        }
+        .swiper-button-prev::after,
+        .swiper-button-next::after {
+          font-size: 42px;
+        }
    .collection-wrap {
     padding-bottom: 120px;
   }
