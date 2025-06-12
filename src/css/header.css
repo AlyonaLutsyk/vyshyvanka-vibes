@@ -50,7 +50,15 @@
     width: 44px;
     height: 44px;
     background-color: rgba(252, 249, 249, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+
+     .social-item a {
+      width: 28px;
+      height: 28px;
+     }
 
   .social-item:hover,
   .social-item:focus {
@@ -58,15 +66,20 @@
     background-color: transparent;
   }
 
-  .social-icon {
-    padding: 8px;
-    box-sizing: content-box;
-  }
+  /* .social-icon {
+    padding: 0;
+  } */
   .contact-wrap {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    box-sizing: content-box;
   }
+
+   .open-menu-btn {
+    width: 44px;
+    height: 30px;
+   }
 
 }
 
@@ -83,6 +96,7 @@
     height: 48px;
     justify-content: center;
     align-items: center;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.42;
     text-transform: uppercase;
@@ -107,6 +121,9 @@
 
   .nav-link {
     text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
   }
 
   .nav-link:hover,
@@ -120,7 +137,4 @@
     align-items: center;
   }
 
-  .contact-wrap {
-    display: flex;
-  }
 }

@@ -30,5 +30,6 @@ document.addEventListener('DOMContentLoaded', () => {
         slidesPerGroup: 6,
       },
     },
+    
   });
 });

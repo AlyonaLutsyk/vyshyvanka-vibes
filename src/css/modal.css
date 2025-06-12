@@ -3,7 +3,7 @@
     top: 0;
     right: 0;
     background-color: #ecd979;
-    width: 234px;
+    width: 274px;
     height: 782px;
     padding-top: 20px;
     opacity: 0;
@@ -70,6 +70,7 @@
 }
 
 .modal-link {
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.28;
     text-transform: uppercase;
@@ -79,7 +80,7 @@
 
 @media only screen and (min-width: 768px) {
     .modal-container{
-        width: 316px;
+        width: 380px;
         height: 1024px;
         background-image: url(/img/modal-image-tab.png);
     }
@@ -101,5 +102,9 @@
     .icon-menu-close {
         width: 44px;
         height: 44px;
+    }
+
+    .modal-list {
+        gap: 25px;
     }
 }

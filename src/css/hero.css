@@ -42,6 +42,15 @@
     border: 1px solid #ecd979;
 }
 
+.hero-svg {
+    margin-left: 10px;
+    transition: transform 0.2s ease;
+    transform: rotate(-20deg);
+}
+
+.hero-btn.active .hero-svg {
+    transform: rotate(80deg);
+}
 
 
 .hero-img {
@@ -80,7 +89,9 @@
         position: absolute;
         right: 0;
         top: 16px;
+        line-height: 1.38;
     }
+
 
     .svg-star {
         margin-bottom: 16px;
@@ -100,6 +111,8 @@
     .hero-img {
         width: 413px;
         height: 575px;
+        margin-top: 46px;
+
 
     }
 }

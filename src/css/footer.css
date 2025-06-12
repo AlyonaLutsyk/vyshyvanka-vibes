@@ -14,7 +14,6 @@
 
 .footer-nav-list {
   display: flex;
-  margin-bottom: 40px;
   column-gap: 40px;
   row-gap: 25px;
   flex-wrap: wrap;
@@ -39,6 +38,7 @@
   font-size: 44px;
   line-height: 1.22;
   letter-spacing: -0.03em;
+  margin-top: 40px;
 }
 
 .footer-title span {
@@ -58,13 +58,14 @@
 
     .footer-nav-list {
       column-gap: 25px;
-      margin-bottom: 80px;
+      width: 478px;
     }
 
     .footer-title {
       font-size: 54px;
       line-height: 1.18;
       max-width: 521px;
+      margin-top: 80px;
     }
 
     .footer-nav-link {
