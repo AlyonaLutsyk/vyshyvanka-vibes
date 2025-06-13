@@ -1,6 +1,7 @@
 .footer {
   border-top: 1px solid rgba(252, 249, 249, 0.1);
-  background-image: url(/img/images/bc-footer-mob.png);
+  background-image: url(/img/background/bc-footer-mob1x.png);
+  background-image: image-set(url(/img/background/bc-footer-mob1x.png) 1x, url(/img/background/bc-footer-mob2x.png) 2x);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
@@ -47,7 +48,8 @@
 
 @media only screen and (min-width: 768px) {
    .footer {
-    background-image: url(/img/images/bc-footer-tablet.png);
+    background-image: url(/img/background/bc-footer-tablet1x.png);
+    background-image: image-set(url(/img/background/bc-footer-tablet1x.png) 1x, url(/img/background/bc-footer-tablet2x.png) 2x);
     background-position: right bottom;
     
   }
@@ -75,7 +77,8 @@
 
 @media only screen and (min-width: 1280px) {
    .footer {
-    background-image: url(/img/images/bc-footer-desk.png);
+    background-image: url(/img/background/bc-footer-desk1x.png);
+    background-image: image-set(url(/img/background/bc-footer-desk1x.png) 1x, url(/img/background/bc-footer-desk2x.png) 2x);
   }
 
   .footer-title {

@@ -110,7 +110,8 @@
 @media only screen and (min-width: 768px) {
 
     .your-order {
-        background-image: url(/img/images/bc-order-vyshyvanka-tablet.png);
+        background-image: url(/img/background/bc-order-vyshyvanka-tablet1x.png);
+        background-image: image-set(url(/img/background/bc-order-vyshyvanka-tablet1x.png) 1x, url(/img/background/bc-order-vyshyvanka-tablet2x.png) 2x);
         background-repeat: no-repeat;
         background-position: left bottom;
 
@@ -183,6 +184,7 @@
     }
 
     .your-order {
-        background-image: url(/img/images/bc-order-vyshyvanka-desk.png);
+        background-image: url(/img/background/bc-order-vyshyvanka-desk1x.png);
+        background-image: image-set(url(/img/background/bc-order-vyshyvanka-desk1x.png) 1x, url(/img/background/bc-order-vyshyvanka-desk2x.png) 2x);
     }
 }

@@ -1,5 +1,6 @@
 .our-collection {
-    background-image: url(/img/images/bc-yellow-mob.png);
+    background-image: url(/img/background/bc-yellow-mob1x.png);
+    background-image: image-set(url(/img/background/bc-yellow-mob1x.png) 1x, url(/img/background/bc-yellow-mob2x.png) 2x);
     background-repeat: no-repeat;
     background-position: left 298px;
     
@@ -77,7 +78,8 @@
 
 @media only screen and (min-width: 768px) {
     .our-collection {
-        background-image: url(/img/images/bc-yellow-tab.png);
+        background-image: url(/img/background/bc-yellow-tab1x.png);
+        background-image: image-set(url(/img/background/bc-yellow-tab1x.png) 1x, url(/img/background/bc-yellow-tab2x.png) 2x);
         background-repeat: no-repeat;
         background-position: left 221px;
     
@@ -134,7 +136,8 @@
 
 @media only screen and (min-width: 1280px) {
     .our-collection {
-        background-image: url(/img/images/bc-yellow-desktop.png);
+        background-image: url(/img/background/bc-yellow-desktop1x.png);
+        background-image: image-set(url(/img/background/bc-yellow-desktop1x.png) 1x, url(/img/background/bc-yellow-desktop2x.png) 2x);
         background-position: left 221px;
     
     }

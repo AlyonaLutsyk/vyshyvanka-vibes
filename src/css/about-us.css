@@ -1,5 +1,6 @@
 .about-us {
-    background-image: url(/img/images/bc-about-us.png);
+    background-image: url(/img/background/bc-about-us1x.png);
+    background-image: image-set( url(/img/background/bc-about-us1x.png) 1x, url(/img/background/bc-about-us2x.png) 2x);
     background-position: 125px bottom;
     background-repeat: no-repeat;
     background-size: contain;

@@ -6,8 +6,6 @@
     height: 100vh;
     overflow-y: auto;
     z-index: 5;
-
-    /* 🔧 Додай ці стилі саме сюди */
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -21,45 +19,19 @@
 }
 .modal-container {
     position: relative;
-    margin-left: auto;
     margin-right: 0;
     width: 274px;
     height: 782px;
     background-color: #ecd979;
-    background-image: url(/img/modal-image-mob.png);
+    background-image: url(/img/modal-mob-img1x.png);
+    background-image: image-set( url(/img/modal-mob-img1x.png) 1x, url(/img/modal-mob-img2x.png) 2x);
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: contain;
     margin-left: auto;
     padding-top: 20px;
 }
-/* .modal-container {
-    position: fixed;
-    top: 0;
-    right: 0;
-    background-color: #ecd979;
-    width: 274px;
-    height: 782px;
-    padding-top: 20px;
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-    background-image: url(/img/modal-image-mob.png);
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    z-index: 5;
 
-
-}
-
-
-.is-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-} */
 
 .wrap-top {
     display: flex;
@@ -117,7 +89,8 @@
     .modal-container{
         width: 380px;
         height: 1024px;
-        background-image: url(/img/modal-image-tab.png);
+        background-image: url(/img/modal-tab-img1x.png);
+        background-image: image-set( url(/img/modal-tab-img1x.png) 1x, url(/img/modal-tab-img2x.png) 2x );
     }
 
     .modal-phone {
